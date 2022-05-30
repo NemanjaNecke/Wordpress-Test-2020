@@ -1,0 +1,138 @@
+/*
+Theme name: Pronto
+Author: Nemanja Filipovic
+Description: Theme for Jobbrs Test
+Version: 1.0
+*/
+
+@font-face {
+  font-family: 'Basic Sans regular';
+  src: url('BasicSans/Basic Sans/Basic\ Sans\ Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Basic Sans bold';
+  src: url('BasicSans/Basic Sans/Basic\ Sans\ Bold.otf') format('opentype');
+}
+
+body {
+  --font-regular: 'Basic Sans regular';
+  --font-bold: 'Basic Sans bold';
+}
+
+html > body.custom-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header {
+  font-family: var( --font-bold);
+}
+
+@media only screen and (max-width: 600px) {
+  div.d-flex.flex-column.justify-content-center.col-9 > #mainh1 {
+    font-size: 3.75rem;
+  }
+}
+
+#pronto {
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
+#mainh1 {
+  font-size: 5.75rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  div.col-9.mx-auto.d-flex.justify-content-center > #maintxt {
+    font-size: 1rem;
+  }
+}
+
+#maintxt {
+  font-size: 1.5rem;
+  font-family: var(--font-regular);
+  text-align: center;
+  line-height: 1.1;
+}
+.textwidget {
+  text-align: center;
+}
+a.btn.btn-outline-light.btn-lg.mx-auto.d-flex.py-3.px-5.my-5.border-2 {
+  font-family: var(--font-regular);
+  font-size: 1.3rem;
+}
+
+#layer_1 {
+  height: 150px;
+  margin-top: 0;
+  width: 170px;
+  margin: 0 auto;
+  fill: white;
+  stroke: #ffffff;
+}
+
+#status {
+  font-family: var(--font-bold);
+  font-size: 1.3rem;
+}
+
+a > svg#chat {
+  fill: white;
+  stroke: #ffffff;
+  stroke-width: 5;
+}
+
+a:hover > svg#chat {
+  fill: black;
+  stroke: black;
+}
+
+.phones {
+  width: 16rem;
+  height: 31rem;
+}
+
+@media only screen and (max-width: 600px) {
+  div.d-flex.justify-content-center.my-3 > #projecttxt {
+    font-size: 1rem;
+  }
+}
+
+#project {
+  font-family: var(--font-bold);
+}
+
+div.col.d-flex > p.text-center {
+  font-family: var(--font-regular);
+  font-size: 1.2rem;
+  line-height: normal;
+}
+
+p {
+  font-family: var(--font-regular);
+}
+
+p > a {
+  text-decoration: underline;
+  color: white;
+}
+
+p > a:hover {
+  color: black;
+}
+
+#projecttxt {
+  font-size: 1.3rem;
+}
+
+footer > #copyright {
+  font-size: 0.8rem;
+}
+
+.footer-bold {
+  font-family: var(--font-bold);
+}
